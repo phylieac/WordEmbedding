@@ -26,6 +26,6 @@ We proposes a method that captures the specified words (here we use the name ent
   ./wordembedding -train data.txt -entity entity.txt -output vectors.txt -cbow 0 -size 200 -window 8 -negative 25 -hs 0 -sample 1e-4 -threads 20 -binary 0 -iter 15
   
   Waring: -entity is the specified words file.
-  Other parameters for training to look at Word2vec.
+  Other parameters for training to look up to Word2vec.
   
   
