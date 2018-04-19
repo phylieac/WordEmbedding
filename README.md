@@ -11,6 +11,8 @@ We proposes a method that captures the specified words (here we use the name ent
 
 # Build and Run
 
+## build
+
 * Xcode
 
   build and run the WordEmbedding
@@ -23,9 +25,12 @@ We proposes a method that captures the specified words (here we use the name ent
   
   make
   
-  ./wordembedding -train data.txt -entity entity.txt -output vectors.txt -cbow 0 -size 200 -window 8 -negative 25 -hs 0 -sample 1e-4 -threads 20 -binary 0 -iter 15
-  
   Waring: -entity is the specified words file.
   Other parameters for training to look up Word2vec.
   
+  ## run
+  
+  * train
+  
+    ./wordembedding -train data.txt -entity entity.txt -output vectors.txt -cbow 0 -size 200 -window 8 -negative 25 -hs 0 -sample 1e-4 -threads 20 -binary 0 -iter 15
   
